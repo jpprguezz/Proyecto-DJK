@@ -2,10 +2,6 @@
 
 Proyecto de DJK hecho por Moises, Carlos y José Manuel
 
-# En este documento se podrán visualizar diferentes ideas del componente del grupo: Moisés.
-
-## Serán ideas a poner en común las cuales no están aún implementadas.
-
 # Selección de Modelo de servicio adecuado
 
 ## Selección: FaaS (Function as a Service)
