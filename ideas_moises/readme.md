@@ -10,7 +10,6 @@
 
 Tipo de computación en al nube sin preocuparse por la gestión de servidores. Es ideal para aplicaciones ligeras
 
-
 ### ¿Por qué es el modelo ideal para este problema?
 
 - Coste optimizado: Pago por ejecución, sin costos asociados a la propia infraestructura o tiempo de inactividad.
@@ -23,10 +22,9 @@ Tipo de computación en al nube sin preocuparse por la gestión de servidores. E
 
 - Simplicidad administrativa: Administrada por el proveedor.
 
-
 # Selección de 3 plataformas que ofrecen "Funciones como servicio"
 
-### Existe una gran cantidad de plataformas que proveen dicho modelo de servicio, como por ejemplo: 
+### Existe una gran cantidad de plataformas que proveen dicho modelo de servicio, como por ejemplo:
 
 - AWS Lambda
 
@@ -43,3 +41,11 @@ Tipo de computación en al nube sin preocuparse por la gestión de servidores. E
 - OpenFaaS
 
 - Cloudflare Workers
+
+### No obstante, en nuestro caso hemos elegido las siguientes tres plataformas:
+
+| Platform             | Scalability | Costs                  | Implementation Difficulty                      |
+| -------------------- | ----------- | ---------------------- | ---------------------------------------------- |
+| **AWS Lambda**       | Excelente   | Baja (Gratis hasta 1M) | Alta, pero requiere experiencia con AWS        |
+| **Google Functions** | Excelente   | Bajo (Gratis hasta 1M) | Muy alta                                       |
+| **Azure Functions**  | Excelente   | Bajo (Gratis hasta 1M) | Alta, especialmente para usuarios de Microsoft |
