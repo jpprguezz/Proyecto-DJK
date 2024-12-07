@@ -46,7 +46,7 @@ Tipo de computación en al nube sin preocuparse por la gestión de servidores. E
 
 | Platform             | Scalability | Costs                  | Implementation Difficulty                      | URL                                                  |
 | -------------------- | ----------- | ---------------------- | ---------------------------------------------- | ---------------------------------------------------- |
-| **AWS Lambda**       | Excelente   | Baja (Gratis hasta 1M) | Alta, pero requiere experiencia con AWS        | https://aws.amazon.com/es/lambda/                    |
+| **AWS Lambda**       | Excelente   | Bajo (Gratis hasta 1M) | Alta, pero requiere experiencia con AWS        | https://aws.amazon.com/es/lambda/                    |
 | **Google Functions** | Excelente   | Bajo (Gratis hasta 1M) | Muy alta                                       | https://cloud.google.com/functions                   |
 | **Azure Functions**  | Excelente   | Bajo (Gratis hasta 1M) | Alta, especialmente para usuarios de Microsoft | https://azure.microsoft.com/es-es/products/functions |
 
