@@ -24,3 +24,22 @@ Tipo de computación en al nube sin preocuparse por la gestión de servidores. E
 - Simplicidad administrativa: Administrada por el proveedor.
 
 
+# Selección de 3 plataformas que ofrecen "Funciones como servicio"
+
+### Existe una gran cantidad de plataformas que proveen dicho modelo de servicio, como por ejemplo: 
+
+- AWS Lambda
+
+- Google Cloud Functions
+
+- Azure Functions
+
+- IBM Cloud Functions
+
+- Oracle Functions
+
+- Alibaba Cloud
+
+- OpenFaaS
+
+- Cloudflare Workers
