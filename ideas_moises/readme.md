@@ -44,8 +44,32 @@ Tipo de computación en al nube sin preocuparse por la gestión de servidores. E
 
 ### No obstante, en nuestro caso hemos elegido las siguientes tres plataformas:
 
-| Platform             | Scalability | Costs                  | Implementation Difficulty                      |
-| -------------------- | ----------- | ---------------------- | ---------------------------------------------- |
-| **AWS Lambda**       | Excelente   | Baja (Gratis hasta 1M) | Alta, pero requiere experiencia con AWS        |
-| **Google Functions** | Excelente   | Bajo (Gratis hasta 1M) | Muy alta                                       |
-| **Azure Functions**  | Excelente   | Bajo (Gratis hasta 1M) | Alta, especialmente para usuarios de Microsoft |
+| Platform             | Scalability | Costs                  | Implementation Difficulty                      | URL                                                  |
+| -------------------- | ----------- | ---------------------- | ---------------------------------------------- | ---------------------------------------------------- |
+| **AWS Lambda**       | Excelente   | Baja (Gratis hasta 1M) | Alta, pero requiere experiencia con AWS        | https://aws.amazon.com/es/lambda/                    |
+| **Google Functions** | Excelente   | Bajo (Gratis hasta 1M) | Muy alta                                       | https://cloud.google.com/functions                   |
+| **Azure Functions**  | Excelente   | Bajo (Gratis hasta 1M) | Alta, especialmente para usuarios de Microsoft | https://azure.microsoft.com/es-es/products/functions |
+
+## AWS Lambda
+
+#### Características
+
+- Compatible con diferentes leguanjes de programación (Node.js, Python, Go, Java, entre otros)
+
+- Tiempo muy bajo de ejecución máxima de 15 minutos (Si la tarea a ejecutar tarda más de 15 minutos, nuestra plataforma detendrá idependientemente de si ha terminado o no)
+
+##### Ventajas
+
+1. Escalabilidad automática
+
+2. Pago por uso
+
+3. Integración con el ecosistema AWS
+
+#### Desventajas
+
+1. Tiempo de ejecución limitado
+
+2. Latencia
+
+3. Dependencia del ecosistema AWS
