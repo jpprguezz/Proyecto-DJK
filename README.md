@@ -4,9 +4,13 @@ Proyecto de DJK hecho por Moises, Carlos y José Manuel
 
 # Selección de Modelo de servicio adecuado
 
+### ¿Qué es un Modelo de Servicio?
+
+Es la forma en que una organización ofrece y gestiona sus servicios a los clientes (SaaS, PaaS, IaaS, FaaS, entre otros)
+
 ## Selección: FaaS (Function as a Service)
 
-### ¿De qué se trata?
+### ¿De qué se trata FaaS?
 
 Tipo de computación en al nube sin preocuparse por la gestión de servidores. Es ideal para aplicaciones ligeras
 
