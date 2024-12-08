@@ -77,3 +77,15 @@ Tipo de computación en al nube sin preocuparse por la gestión de servidores. E
 2. Latencia
 
 3. Dependencia del ecosistema AWS
+
+### Análisis Económico
+
+La propia web de AWS Lambda nos proporciona un **Pricing Calculator** el cual nos permite a placer elegir y configurar los servicios que deseemos. Éste hará los cálculos necesarios teniendo en cuenta sus estándares de precios, en nuestro caso, "solo" es necesario insertar los datos y configuración.
+
+## Servicios Necesarios
+
+Utilizaremos un total de 4 servicios:
+
+1. AWS Lambda
+
+![AWS Lambda Configuration Image](/images/awsconfig.png)
