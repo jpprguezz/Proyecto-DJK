@@ -4,6 +4,8 @@ Proyecto de DJK hecho por Moises, Carlos y José Manuel
 
 # Selección de Modelo de servicio adecuado
 
+![Image of cloud with service model examples](/images/mainimage.jpeg)
+
 ### ¿Qué es un Modelo de Servicio?
 
 Es la forma en que una organización ofrece y gestiona sus servicios a los clientes (SaaS, PaaS, IaaS, FaaS, entre otros)
@@ -84,8 +86,8 @@ La propia web de AWS Lambda nos proporciona un **Pricing Calculator** el cual no
 
 ## Servicios Necesarios
 
-Utilizaremos un total de 4 servicios:
+Utilizaremos un total de **4 servicios**:
 
-1. AWS Lambda
+1. **AWS Lambda**
 
 ![AWS Lambda Configuration Image](/images/awsconfig.png)
