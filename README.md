@@ -91,3 +91,9 @@ Utilizaremos un total de **4 servicios**:
 1. **AWS Lambda**
 
 ![AWS Lambda Configuration Image](/images/awsconfig.png)
+
+A modo de resumen, en la siguiente tabla se indican los datos necesarios e insertados en la imágen anterior:
+
+| Arquitectura | Cantidad de solicitudes (U/mes) | Duración Cada Solicitud (ms) | Memoria Asignada (GB) | Almacenamiento Efímero Asignado (MB) |
+| ------------ | ------------------------------- | ---------------------------- | --------------------- | ------------------------------------ |
+| x86          | 1000                            | 100                          | 6                     | 512                                  |
