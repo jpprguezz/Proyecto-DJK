@@ -2,7 +2,7 @@
 
 Proyecto de DJK hecho por Moises, Carlos y José Manuel
 
-------------------------------------------------------
+---
 
 # Selección de Modelo de servicio adecuado
 
@@ -30,7 +30,7 @@ Tipo de computación en al nube sin preocuparse por la gestión de servidores. E
 
 - Simplicidad administrativa: Administrada por el proveedor.
 
--------------------------------------------------------------------------------------------------------------------------
+---
 
 # Selección de 3 plataformas que ofrecen "Funciones como servicio"
 
@@ -54,13 +54,13 @@ Tipo de computación en al nube sin preocuparse por la gestión de servidores. E
 
 ### No obstante, en nuestro caso hemos elegido las siguientes tres plataformas:
 
-| Platform             | Scalability | Costs                  | Implementation Difficulty                      | URL                                                  |
-| -------------------- | ----------- | ---------------------- | ---------------------------------------------- | ---------------------------------------------------- |
-| **AWS Lambda**       | Excelente   | Bajo (Gratis hasta 1M) | Alta, pero requiere experiencia con AWS        | https://aws.amazon.com/es/lambda/                    |
-| **Google Functions** | Excelente   | Bajo (Gratis hasta 1M) | Muy alta                                       | https://cloud.google.com/functions                   |
-| **Azure Functions**  | Excelente   | Bajo (Gratis hasta 1M) | Alta, especialmente para usuarios de Microsoft | https://azure.microsoft.com/es-es/products/functions |
+| Platform             | Scalability   | Costs                      | Implementation Difficulty                      | URL                                                  |
+| -------------------- | ------------- | -------------------------- | ---------------------------------------------- | ---------------------------------------------------- |
+| **AWS Lambda**       | **Excelente** | **Bajo (Gratis hasta 1M)** | **Alta, pero requiere experiencia con AWS**    | **https://aws.amazon.com/es/lambda/**                |
+| **Google Functions** | Excelente     | Bajo (Gratis hasta 1M)     | Muy alta                                       | https://cloud.google.com/functions                   |
+| **Azure Functions**  | Excelente     | Bajo (Gratis hasta 1M)     | Alta, especialmente para usuarios de Microsoft | https://azure.microsoft.com/es-es/products/functions |
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 ## AWS Lambda
 
@@ -86,15 +86,15 @@ Tipo de computación en al nube sin preocuparse por la gestión de servidores. E
 
 3. Dependencia del ecosistema AWS
 
-----------------------------------
+---
 
 ## Google Functions
 
 #### Caracterísiticas
 
 1. **Ejecución sin servidor (Serverless)**. Permite ejecutar código sin necesidad de gestionar un servidor. Solo se paga por el tiempo de ejecución real, eliminando la necesidad de mantener servidores constantemente activos.
- 
-2. **Integración con el ecosistema de Google Cloud**. Está integrado con otros servicios de Google Cloud, lo que facilita la construcción de aplicaciones escalables. 
+
+2. **Integración con el ecosistema de Google Cloud**. Está integrado con otros servicios de Google Cloud, lo que facilita la construcción de aplicaciones escalables.
 
 #### Ventajas
 
@@ -106,23 +106,33 @@ Tipo de computación en al nube sin preocuparse por la gestión de servidores. E
 
 #### Desventajas
 
-1. Latencia de arranque *en frio*
+1. Latencia de arranque _en frio_
 
 2. Límites de tiempo y recursos
 
 3. Dependencia de la infraestructura de Google
 
------------------------------------------------
+---
 
 ### Análisis Económico
+
+**AWS Lambda**
 
 La propia web de AWS Lambda nos proporciona un **Pricing Calculator** el cual nos permite a placer elegir y configurar los servicios que deseemos. Éste hará los cálculos necesarios teniendo en cuenta sus estándares de precios, en nuestro caso, "solo" es necesario insertar los datos y configuración.
 
 ## Servicios Necesarios
 
-Utilizaremos un total de **4 servicios**:
+Utilizaremos un total de **4 servicios** en la siguiente plataforma:
 
-1. **AWS Lambda**
+1. AWS Lambda
+
+2. SNS
+
+3. DynamoDB (NoSQL)
+
+4. SQS (Colas de Mensajes)
+
+---
 
 ![AWS Lambda Configuration Image](/images/awsconfig.png)
 
@@ -131,3 +141,5 @@ A modo de resumen, en la siguiente tabla se indican los datos necesarios e inser
 | Arquitectura | Cantidad de solicitudes (U/mes) | Duración Cada Solicitud (ms) | Memoria Asignada (GB) | Almacenamiento Efímero Asignado (MB) |
 | ------------ | ------------------------------- | ---------------------------- | --------------------- | ------------------------------------ |
 | x86          | 1000                            | 100                          | 6                     | 512                                  |
+
+![AWS Lambda Configuration Image - SNS](/images/snsconfig.png)
