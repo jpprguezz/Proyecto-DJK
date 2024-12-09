@@ -56,13 +56,13 @@ Tipo de computación en al nube sin preocuparse por la gestión de servidores. E
 | **Google Functions** | Excelente   | Bajo (Gratis hasta 1M) | Muy alta                                       | https://cloud.google.com/functions                   |
 | **Azure Functions**  | Excelente   | Bajo (Gratis hasta 1M) | Alta, especialmente para usuarios de Microsoft | https://azure.microsoft.com/es-es/products/functions |
 
-## AWS Lambda
+1. **AWS Lambda**
 
 #### Características
 
-- Compatible con diferentes leguanjes de programación (Node.js, Python, Go, Java, entre otros)
+1. Compatible con diferentes leguanjes de programación (Node.js, Python, Go, Java, entre otros)
 
-- Tiempo muy bajo de ejecución máxima de 15 minutos (Si la tarea a ejecutar tarda más de 15 minutos, nuestra plataforma detendrá idependientemente de si ha terminado o no)
+2. Tiempo muy bajo de ejecución máxima de 15 minutos (Si la tarea a ejecutar tarda más de 15 minutos, nuestra plataforma detendrá idependientemente de si ha terminado o no)
 
 ##### Ventajas
 
@@ -79,6 +79,34 @@ Tipo de computación en al nube sin preocuparse por la gestión de servidores. E
 2. Latencia
 
 3. Dependencia del ecosistema AWS
+
+----------------------------------
+
+2. **Google Functions**
+
+#### Caracterísiticas
+
+1. **Ejecución sin servidor (Serverless)**. Permite ejecutar código sin necesidad de gestionar un servidor. Solo se paga por el tiempo de ejecución real, eliminando la necesidad de mantener servidores constantemente activos.
+ 
+2. **Integración con el ecosistema de Google Cloud**. Está integrado con otros servicios de Google Cloud, lo que facilita la construcción de aplicaciones escalables. 
+
+#### Ventajas
+
+1. Escalabilidad automática
+
+2. Costos basados en uso
+
+3. Desarrollo rápido y simplificado
+
+#### Desventajas
+
+1. Latencia de arranque *en frio*
+
+2. Límites de tiempo y recursos
+
+3. Dependencia de la infraestructura de Google
+
+-----------------------------------------------
 
 ### Análisis Económico
 
