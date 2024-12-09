@@ -116,13 +116,23 @@ Tipo de computación en al nube sin preocuparse por la gestión de servidores. E
 
 ### Análisis Económico
 
+**AWS Lambda**
+
 La propia web de AWS Lambda nos proporciona un **Pricing Calculator** el cual nos permite a placer elegir y configurar los servicios que deseemos. Éste hará los cálculos necesarios teniendo en cuenta sus estándares de precios, en nuestro caso, "solo" es necesario insertar los datos y configuración.
 
 ## Servicios Necesarios
 
 Utilizaremos un total de **4 servicios** en la siguiente plataforma:
 
-**AWS Lambda**
+1. AWS Lambda
+
+2. SNS
+
+3. DynamoDB (NoSQL)
+
+4. SQS (Colas de Mensajes)
+
+---
 
 ![AWS Lambda Configuration Image](/images/awsconfig.png)
 
