@@ -2,6 +2,8 @@
 
 Proyecto de DJK hecho por Moises, Carlos y José Manuel
 
+------------------------------------------------------
+
 # Selección de Modelo de servicio adecuado
 
 ![Image of cloud with service model examples](/images/mainimage.jpeg)
@@ -27,6 +29,8 @@ Tipo de computación en al nube sin preocuparse por la gestión de servidores. E
 - Flexibilidad: Compatible con diversas herramientas.
 
 - Simplicidad administrativa: Administrada por el proveedor.
+
+-------------------------------------------------------------------------------------------------------------------------
 
 # Selección de 3 plataformas que ofrecen "Funciones como servicio"
 
@@ -56,7 +60,9 @@ Tipo de computación en al nube sin preocuparse por la gestión de servidores. E
 | **Google Functions** | Excelente   | Bajo (Gratis hasta 1M) | Muy alta                                       | https://cloud.google.com/functions                   |
 | **Azure Functions**  | Excelente   | Bajo (Gratis hasta 1M) | Alta, especialmente para usuarios de Microsoft | https://azure.microsoft.com/es-es/products/functions |
 
-1. **AWS Lambda**
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## AWS Lambda
 
 #### Características
 
@@ -82,7 +88,7 @@ Tipo de computación en al nube sin preocuparse por la gestión de servidores. E
 
 ----------------------------------
 
-2. **Google Functions**
+## Google Functions
 
 #### Caracterísiticas
 
