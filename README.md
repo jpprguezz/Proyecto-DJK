@@ -16,7 +16,7 @@ Es la forma en que una organización ofrece y gestiona sus servicios a los clien
 
 ### ¿De qué se trata FaaS?
 
-Tipo de computación en al nube sin preocuparse por la gestión de servidores. Es ideal para aplicaciones ligeras
+Tipo de computación en la nube sin preocuparse por la gestión de servidores. Es ideal para aplicaciones ligeras. Este tipo de tecnología funciona de la siguiente manera: nosotros al contrastar el servicio, damos nuestra confianza a la empresa de computación, la cual nos proporciona sistemas remotos potentes y totalmente capaces de poder realizar las tareas que necesitamos
 
 ### ¿Por qué es el modelo ideal para este problema?
 
