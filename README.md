@@ -20,15 +20,15 @@ Tipo de computación en la nube sin preocuparse por la gestión de servidores. E
 
 ### ¿Por qué es el modelo ideal para este problema?
 
-- Coste optimizado: Pago por ejecución, sin costos asociados a la propia infraestructura o tiempo de inactividad.
+- Coste optimizado: Pago por ejecución, sin costos asociados a la propia infraestructura o tiempo de inactividad. Al usar equipos proporcionados por la empresa con la que estamos trabajando, evitamos el tener que adquirir de forma física estos equípos. A su vez, eliminamos la necesidad de ocupar espacio con los mismos.
 
-- Escalabilidad: Responde automáticamente al volumen que queramos adquirir.
+- Escalabilidad: Responde automáticamente al volumen que queramos adquirir, pudiendo mejorar siempre que se necesite dichos equipos, con el fin de mejorar la producción de la empresa.
 
-- Fácil implementación: Desarrollo rápido.
+- Fácil implementación: Desarrollo rápido, gracias a que la empresa de FaaS con la que trabajamos, la cual se encarga de toda la instalación en los dispositivos de nuestra empresa
 
-- Flexibilidad: Compatible con diversas herramientas.
+- Flexibilidad: Compatible con diversas herramientas, entre ellos muchos de los más famosos lenguajes de programación, tales como: Python, JavaScript, Java o Go. 
 
-- Simplicidad administrativa: Administrada por el proveedor.
+- Simplicidad administrativa: Administrada por el proveedor el cual implementa todas las configuraciones necesarias para que podamos usar de forma remota todos los servicios necesarios
 
 ---
 
