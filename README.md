@@ -24,11 +24,11 @@ Tipo de computación en la nube sin preocuparse por la gestión de servidores. E
 
 - Escalabilidad: Responde automáticamente al volumen que queramos adquirir, pudiendo mejorar siempre que se necesite dichos equipos, con el fin de mejorar la producción de la empresa.
 
-- Fácil implementación: Desarrollo rápido, gracias a que la empresa de FaaS con la que trabajamos, la cual se encarga de toda la instalación en los dispositivos de nuestra empresa
+- Fácil implementación: Desarrollo rápido, gracias a que la empresa de FaaS con la que trabajamos, la cual se encarga de toda la instalación en los dispositivos de nuestra empresa.
 
 - Flexibilidad: Compatible con diversas herramientas, entre ellos muchos de los más famosos lenguajes de programación, tales como: Python, JavaScript, Java o Go. 
 
-- Simplicidad administrativa: Administrada por el proveedor el cual implementa todas las configuraciones necesarias para que podamos usar de forma remota todos los servicios necesarios
+- Simplicidad administrativa: Administrada por el proveedor el cual implementa todas las configuraciones necesarias para que podamos usar de forma remota todos los servicios necesarios.
 
 ---
 
@@ -36,7 +36,7 @@ Tipo de computación en la nube sin preocuparse por la gestión de servidores. E
 
 ### Existe una gran cantidad de plataformas que proveen dicho modelo de servicio, como por ejemplo:
 
-- AWS Lambda
+- AWS Lambda 
 
 - Google Cloud Functions
 
@@ -54,7 +54,7 @@ Tipo de computación en la nube sin preocuparse por la gestión de servidores. E
 
 ### No obstante, en nuestro caso hemos elegido las siguientes tres plataformas:
 
-| Platform             | Scalability   | Costs                      | Implementation Difficulty                      | URL                                                  |
+| Plataforma            | Escalabilidad   | Costes                     | Dificultad a la hora de ser implementada                      | URL                                                  |
 | -------------------- | ------------- | -------------------------- | ---------------------------------------------- | ---------------------------------------------------- |
 | **AWS Lambda**       | **Excelente** | **Bajo (Gratis hasta 1M)** | **Alta, pero requiere experiencia con AWS**    | **https://aws.amazon.com/es/lambda/**                |
 | **Google Functions** | Excelente     | Bajo (Gratis hasta 1M)     | Muy alta                                       | https://cloud.google.com/functions                   |
