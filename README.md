@@ -113,6 +113,29 @@ Tipo de computación en la nube sin preocuparse por la gestión de servidores. E
 3. Dependencia de la infraestructura de Google
 
 ---
+## Azure Functions
+
+### Características
+1. Diseña aplicaciones sin servidor en el lenguaje que prefieras mientras te centras en la lógica de negocios.
+
+2. Logra un escalado de un gran rendimiento.
+
+## Ventajas
+
+1. Podemos codificar todo el código que necesitemos para el problema / acción que se quiere ejecutar sin preocuparnos de la aplicación o la infraestructura para ejecutarlo.
+
+2. Hace que el desarrollo sea más productivo.
+
+3. Cambio en el modelo de pago frente a los WebJobs. Azure Function dispone de dos modelos de pago y, además, se puede incluir en un modelo de pago ya existente como un App Service. También se puede pagar solo por el tiempo que este en ejecución esa función.
+
+## Desventajas
+
+1. Los costos asociados con el uso de Azure son variables y dependen de los tipos de productos necesarios para el equipo de desarrollo de la empresa. 
+
+2. Azure difiere de los servidores locales y requiere experiencia para garantizar un funcionamiento eficiente de todas las partes móviles. Incluso un error simple cometido por el administrador de TI puede generar problemas significativas.
+
+
+---
 
 ### Análisis Económico
 
