@@ -215,3 +215,48 @@ A modo de resumen, en la siguiente tabla se indican los datos necesarios:
 | **Almacenamiento**          | Azure Storage                        | Necesario para almacenar metadatos, datos temporales y logs de funciones mensajes. |                   |
 | **Base de Datos**           | Azure Cosmos DB                      | Base de datos NoSQL para aplicaciones con alta disponibilidad y baja latencia.|
 | **Supervisión y Logs**      | Azure Monitor                        | Supervisión del rendimiento y registro de errores o métricas.                 |
+
+---
+
+## Conclusiones
+
+En base al modelo adoptado, la investigación de las plataformas, los factores evaluados y el análisis económico, se concluye lo siguiente:
+
+#### **Adecuación del Modelo de Servicio FaaS**
+El modelo **FaaS** se ajusta perfectamente a los requisitos del problema debido a:
+
+- **Coste optimizado**: Pago únicamente por uso y ejecución de funciones.
+- **Escalabilidad automática**: La capacidad de escalar de manera dinámica según el volumen de trabajo asegura que las necesidades de procesamiento puedan ser cubiertas sin intervención manual.
+- **Flexibilidad**: Compatible con diversos lenguajes y herramientas, lo que facilita la implementación de soluciones a medida.
+- **Simplicidad administrativa**: El proveedor administra la infraestructura, permitiendo a los desarrolladores centrarse exclusivamente en la lógica del negocio.
+
+#### **Soluciones Contrastadas**
+De las plataformas seleccionadas, las tres cumplen con los principios del modelo FaaS, pero destacan en diferentes aspectos:
+
+1. **AWS Lambda**:
+   - Excelente para aplicaciones que requieren integración profunda con el ecosistema AWS.
+   - Es ideal para equipos con experiencia en la plataforma.
+   - El costo es competitivo, y ofrece herramientas avanzadas de monitoreo y configuración.
+
+2. **Google Cloud Functions**:
+   - Beneficia a las empresas que ya utilizan herramientas de Google.
+   - Su integración nativa con el ecosistema de Google facilita el desarrollo de soluciones escalables.
+
+3. **Azure Functions**:
+   - Excelente opción para empresas que ya tienen experiencia o infraestructuras basadas en Microsoft.
+   - Ofrece una flexibilidad significativa en modelos de pago y escalabilidad avanzada.
+
+#### **Comparativa de Plataformas**
+La elección de la plataforma dependerá de los siguientes factores:
+
+| **Plataforma**         | **Casos ideales**                                                                                   |
+|-------------------------|---------------------------------------------------------------------------------------------------|
+| **AWS Lambda**          | Soluciones complejas y de alta integración con el ecosistema AWS.                                 |
+| **Google Cloud Functions** | Aplicaciones ligeras, rápidas de implementar y con dependencia de servicios de Google Cloud.       |
+| **Azure Functions**     | Proyectos empresariales con dependencias en herramientas y servicios de Microsoft Azure.          |
+
+---
+
+### **Recomendación Final**
+
+La plataforma seleccionada debe alinearse con las necesidades técnicas y operativas del proyecto. Si el entorno actual está basado en Microsoft, **Azure Functions** ofrece una integración nativa que maximiza el valor del ecosistema Azure. Sin embargo, si ya se utilizan servicios de Google o AWS, estas plataformas podrían ser más convenientes. En cualquier caso, el modelo FaaS satisface los requisitos del problema por su flexibilidad, eficiencia económica y simplicidad administrativa.
