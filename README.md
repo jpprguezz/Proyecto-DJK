@@ -188,3 +188,31 @@ A modo de resumen, en la siguiente tabla se indican los datos necesarios e inser
 | **Principal**               | Google Cloud Functions    | Plataforma serverless para ejecutar funciones basadas en eventos.            |
 | **Almacenamiento**          | Cloud Storage             | Almacenar datos y activar funciones al subir archivos.                       |
 | **Bases de Datos**          | Firestore/Firebase Realtime DB | Activar funciones en tiempo real con cambios en bases de datos.              |
+
+**Azure Functions**
+
+Se paga por el tiempo de ejecución en las instancias en las que se ejecutan las funciones, además de cualquier instancia siempre preparada. Las instancias se agregan y quitan dinámicamente en función del número de eventos entrantes. Este es el plan de escalado dinámico recomendado, que también admite la integración de red virtual.
+
+## Servicios necesarios
+
+Utilizaremos un total de **4 servicios** en la siguiente plataforma:
+
+1. Azure Functions
+
+2. Azure Storage
+
+3. Azure Cosmos DB
+
+4. Azure Monitor
+
+A modo de resumen, en la siguiente tabla se indican los datos necesarios:
+
+### Servicios Necesarios para Azure Functions
+
+| **Categoría**               | **Servicio**                          | **Propósito**                                                                 |
+|-----------------------------|---------------------------------------|-------------------------------------------------------------------------------|
+| **Principal**               | Azure Functions                      | Plataforma serverless para ejecutar código en respuesta a eventos.            |
+| **Almacenamiento**          | Azure Storage                        | Necesario para almacenar metadatos, datos temporales y logs de funciones.     |
+mensajes.                               |
+| **Base de Datos**           | Azure Cosmos DB                      | Base de datos NoSQL para aplicaciones con alta disponibilidad y baja latencia.|
+| **Supervisión y Logs**      | Azure Monitor                        | Supervisión del rendimiento y registro de errores o métricas.                 |
