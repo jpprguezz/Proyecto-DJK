@@ -213,6 +213,6 @@ A modo de resumen, en la siguiente tabla se indican los datos necesarios:
 |-----------------------------|---------------------------------------|-------------------------------------------------------------------------------|
 | **Principal**               | Azure Functions                      | Plataforma serverless para ejecutar código en respuesta a eventos.            |
 | **Almacenamiento**          | Azure Storage                        | Necesario para almacenar metadatos, datos temporales y logs de funciones.     |
-mensajes.                               |
+mensajes.                    |
 | **Base de Datos**           | Azure Cosmos DB                      | Base de datos NoSQL para aplicaciones con alta disponibilidad y baja latencia.|
 | **Supervisión y Logs**      | Azure Monitor                        | Supervisión del rendimiento y registro de errores o métricas.                 |
