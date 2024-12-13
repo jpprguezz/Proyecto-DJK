@@ -166,3 +166,25 @@ A modo de resumen, en la siguiente tabla se indican los datos necesarios e inser
 | x86          | 1000                            | 100                          | 6                     | 512                                  |
 
 ![AWS Lambda Configuration Image - SNS](/images/snsconfig.png)
+
+**Google Functions**
+
+Google Cloud Functions (GCF) es una plataforma serverless proporcionada por Google Cloud que permite a los desarrolladores ejecutar funciones basadas en eventos sin preocuparse por la infraestructura. Esto significa que las empresas pagan solo por el tiempo de ejecución de las funciones y los recursos utilizados, eliminando costos asociados con servidores inactivos. A continuación, se presenta un análisis económico de GCF.
+
+## Servicios necesarios
+
+Utilizaremos un total de **3 servicios** en la siguiente plataforma:
+
+1. Google Cloud Functions
+
+2. Cloud Storage (opcional según caso de uso)
+
+3. Firestore o Firebase Realtime Database
+
+A modo de resumen, en la siguiente tabla se indican los datos necesarios e insertados en la imágen anterior:
+
+| **Categoría**               | **Servicio**               | **Propósito**                                                                 |
+|-----------------------------|----------------------------|-------------------------------------------------------------------------------|
+| **Principal**               | Google Cloud Functions    | Plataforma serverless para ejecutar funciones basadas en eventos.            |
+| **Almacenamiento**          | Cloud Storage             | Almacenar datos y activar funciones al subir archivos.                       |
+| **Bases de Datos**          | Firestore/Firebase Realtime DB | Activar funciones en tiempo real con cambios en bases de datos.              |
