@@ -8,6 +8,10 @@ Proyecto de DJK hecho por Moises, Carlos y José Manuel
 
 ![Image of cloud with service model examples](/images/mainimage.jpeg)
 
+### Problema elegido para el proyecto
+
+Problema C: Una cadena de restaurantes necesita implementar una funcionalidad que permita enviar notificaciones automáticas a los clientes cuando su pedido está listo. El sistema debe ser escalable, de bajo coste, y ejecutarse únicamente cuando se realicen pedidos.
+
 ### ¿Qué es un Modelo de Servicio?
 
 Es la forma en que una organización ofrece y gestiona sus servicios a los clientes (SaaS, PaaS, IaaS, FaaS, entre otros)
