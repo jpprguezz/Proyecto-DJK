@@ -163,6 +163,19 @@ Utilizaremos un total de **4 servicios** en la siguiente plataforma:
 
 ![AWS Lambda Configuration Image](/images/awsconfig.png)
 
+Datos a tener en cuenta para dicho **Pricing Calculator**
+
+1. Arquitectura --> Tipo de procesador utilizado y que sea compatible.
+
+2. Cantidad de solicitudes que recibirá en este caso el restaurante al **mes**
+
+3. Duración de cada solicitud (ms) --> Tiempo de ejecución desde que comienza hasta que termina la función.
+
+4. Cantidad de memoria que tendrá asignada (GB) --> AUmentar la memoria no solo incrementa el costo por ejecución, sino que también puede mejorar el rendimiento.
+
+5. Cantidad de almacenamiento efímero asignado (MB) --> Almacenamiento temporal. Es útil para almacenar datos temporales, como para ciertas aplicaciones, lo cuál, aumentará el costo.
+
+
 A modo de resumen, en la siguiente tabla se indican los datos necesarios e insertados en la imágen anterior:
 
 | Arquitectura | Cantidad de solicitudes (U/mes) | Duración Cada Solicitud (ms) | Memoria Asignada (GB) | Almacenamiento Efímero Asignado (MB) |
