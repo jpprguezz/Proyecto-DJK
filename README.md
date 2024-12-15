@@ -80,7 +80,7 @@ Tipo de computación en la nube sin preocuparse por la gestión de servidores. E
 
 2. Pago por uso
 
-3. Integración con el ecosistema AWS
+3. Integración con el ecosistema AWS (el cuál es el propio conjunto de servicios, herramientas y recursos que son proporcionados por amazon para trabajar con su sistema en la nube)
 
 #### Desventajas
 
