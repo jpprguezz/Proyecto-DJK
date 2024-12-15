@@ -211,9 +211,10 @@ Debido a que no utilizaremos demasiadas aplicaciones y no queremos que increment
 ---
 ![AWS Lambda Configuration Image - SNS](/images/snsconfig.png)
 
+---
+![AWS Lambda Configuration Image - SQS](/images/sqsconfig.png)
 
 ---
-
 ## Conclusiones
 
 En base al modelo adoptado, la investigación de las plataformas, los factores evaluados y el análisis económico, se concluye lo siguiente:
