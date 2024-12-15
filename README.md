@@ -211,6 +211,18 @@ Debido a que no utilizaremos demasiadas aplicaciones y no queremos que increment
 ---
 ![AWS Lambda Configuration Image - SNS](/images/snsconfig.png)
 
+1. Solicitudes --> Cantidad de solicitudes que se recibirán.
+
+2. Notificaciones HTTP/HTTPS --> Hay que tener en cuenta la notificación para HTTP y la de EMAIL.
+
+3. Notificaciones por EMAIL o EMAIL-JSON --> Notificación a EMAIL y a la propia empresa.
+
+4. Notificaciones de SQS --> Notificación de entrada y salida, se multiplica al igual que en los anteriores apartados x2 las solicitudes esperadas.
+
+5. Amazon Web Services Lambda --> Solicitudes x2
+
+6. Amazon Kinesis Data Firehose --> Solicitudes x2
+
 ---
 ![AWS Lambda Configuration Image - SQS](/images/sqsconfig.png)
 
