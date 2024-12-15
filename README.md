@@ -124,6 +124,8 @@ Tipo de computación en la nube sin preocuparse por la gestión de servidores. E
 
 2. Logra un escalado de un gran rendimiento.
 
+3. Flexibilidad y simplicidad, gracias a que Azure se encarga de ejecutar el código solo cuando sea necesario, escalarlo automáticamente, y liberar recursos en caso de que no se esten usando
+
 ## Ventajas
 
 1. Podemos codificar todo el código que necesitemos para el problema / acción que se quiere ejecutar sin preocuparnos de la aplicación o la infraestructura para ejecutarlo.
@@ -210,43 +212,9 @@ Debido a que no utilizaremos demasiadas aplicaciones y no queremos que increment
 ![AWS Lambda Configuration Image - SNS](/images/snsconfig.png)
 
 ---
-
-# Cálculo de Costo para Amazon SQS
-
-Este documento detalla un cálculo aproximado de costos para utilizar el servicio **Amazon SQS** (Simple Queue Service) basado en los parámetros típicos de una empresa que maneja colas de mensajes para sus operaciones. 
+![AWS Lambda Configuration Image - SQS](/images/sqsconfig.png)
 
 ---
-
-## Detalles de Costo
-
-### 1. **Costo Base por Solicitud**
-- **Cola estándar:** $0.40 por millón de solicitudes.
-- **Cola FIFO:** $0.50 por millón de solicitudes.
-
-Para este ejemplo:
-- **Cantidad de solicitudes:** 1,000 mensajes por mes.
-- **Cálculo:** 
-  - Estándar: \( 1,000 \times \frac{0.40}{1,000,000} = \$0.0004 \)
-  - FIFO: \( 1,000 \times \frac{0.50}{1,000,000} = \$0.0005 \)
-    
----
-
-### 2. **Costo de Almacenamiento**
-- Cada mensaje ocupa 64 KB.
-- 1,000 mensajes \(\approx\) 64 MB (debajo del límite gratuito de 1 GB).
-- **Costo adicional:** Sin cargo por almacenamiento.
-
----
-
-## Notas
-1. El cálculo ignora configuraciones avanzadas como retención prolongada (más de 4 días) o mensajes más grandes (>64 KB).
-2. Este ejemplo es para un caso básico de SQS y puede ajustarse según las necesidades específicas, como:
-   - Aumentar el tamaño promedio de los mensajes.
-   - Configurar mayor retención de mensajes.
-   - Incrementar el número de solicitudes mensuales.
-
----
-
 ## Conclusiones
 
 En base al modelo adoptado, la investigación de las plataformas, los factores evaluados y el análisis económico, se concluye lo siguiente:
