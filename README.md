@@ -182,6 +182,31 @@ A modo de resumen, en la siguiente tabla se indican los datos necesarios e inser
 | ------------ | ------------------------------- | ---------------------------- | --------------------- | ------------------------------------ |
 | x86          | 1000                            | 100                          | 6                     | 512                                  |
 
+## ¿De dónde han "salido" los anteriores datos?
+
+#### Cantidad de solicitudes
+
+Se ha hecho una aproximación al alza calculando las solicitudes que podría tener una empresa de ese estilo y además sin saber datos genéricos de dicha empresa.
+
+---
+
+#### Duración de cada solicitud
+
+En este caso, no se dispone del código para poder realizar algunas estimaciones, no obstante, se ha investigado y existen diferentes **librerías** las cuales puedes utilizarlas en **Python** y ejecutarlo junto a tu código. Éste ejecutará una serie de líneas que darán lugar al tiempo que tu código tarda en ejecutarse.
+
+---
+
+#### Memoria Asignada
+
+En AWS tenemos la opción de asignarle hasta un máximo de _10GB_, no obstante, nuevamente, hemos calculado al alza para no tener problemas con el rendimiento.
+
+---
+
+#### Almacenamiento Efímero
+
+Debido a que no utilizaremos demasiadas aplicaciones y no queremos que incremente el costo, hemos sido bastante conservados indicando **512 MB**.
+
+---
 ![AWS Lambda Configuration Image - SNS](/images/snsconfig.png)
 
 
