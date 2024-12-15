@@ -110,7 +110,7 @@ Tipo de computación en la nube sin preocuparse por la gestión de servidores. E
 
 #### Desventajas
 
-1. Latencia de arranque _en frio_
+1. Latencia de arranque _en frio_. La latencia en frío es el lapso de espera que hay cuando una función es activada después de haber estado inactiva durante un tiempo.
 
 2. Límites de tiempo y recursos
 
