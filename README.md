@@ -122,15 +122,13 @@ La propia web de AWS Lambda nos proporciona un **Pricing Calculator** el cual no
 
 ## Servicios Necesarios
 
-Utilizaremos un total de **4 servicios** en la siguiente plataforma:
+Utilizaremos un total de **3 servicios** en la siguiente plataforma:
 
 1. AWS Lambda
 
 2. SNS
 
-3. DynamoDB (NoSQL)
-
-4. SQS (Colas de Mensajes)
+3. SQS (Colas de Mensajes)
 
 ---
 
@@ -180,4 +178,17 @@ En AWS tenemos la opción de asignarle hasta un máximo de _10GB_, no obstante, 
 Debido a que no utilizaremos demasiadas aplicaciones y no queremos que incremente el costo, hemos sido bastante conservados indicando **512 MB**.
 
 ---
+
 ![AWS Lambda Configuration Image - SNS](/images/snsconfig.png)
+
+1. Solicitudes --> Cantidad de solicitudes que se recibirán.
+
+2. Notificaciones HTTP/HTTPS --> Hay que tener en cuenta la notificación para HTTP y la de EMAIL.
+
+3. Notificaciones por EMAIL o EMAIL-JSON --> Notificación a EMAIL y a la propia empresa.
+
+4. Notificaciones de SQS --> Notificación de entrada y salida, se multiplica al igual que en los anteriores apartados x2 las solicitudes esperadas.
+
+5. Amazon Web Services Lambda --> Solicitudes x2
+
+6. Amazon Kinesis Data Firehose --> Solicitudes x2
