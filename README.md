@@ -245,6 +245,7 @@ Para este ejemplo:
    - Configurar mayor retención de mensajes.
    - Incrementar el número de solicitudes mensuales.
 
+---
 
 ## Conclusiones
 
