@@ -30,7 +30,7 @@ Tipo de computación en la nube sin preocuparse por la gestión de servidores. E
 
 - Fácil implementación: Desarrollo rápido, gracias a que la empresa de FaaS con la que trabajamos, la cual se encarga de toda la instalación en los dispositivos de nuestra empresa.
 
-- Flexibilidad: Compatible con diversas herramientas, entre ellos muchos de los más famosos lenguajes de programación, tales como: Python, JavaScript, Java o Go. 
+- Flexibilidad: Compatible con diversas herramientas, entre ellos muchos de los más famosos lenguajes de programación, tales como: Python, JavaScript, Java o Go.
 
 - Simplicidad administrativa: Administrada por el proveedor el cual implementa todas las configuraciones necesarias para que podamos usar de forma remota todos los servicios necesarios.
 
@@ -40,7 +40,7 @@ Tipo de computación en la nube sin preocuparse por la gestión de servidores. E
 
 ### Existe una gran cantidad de plataformas que proveen dicho modelo de servicio, como por ejemplo:
 
-- AWS Lambda 
+- AWS Lambda
 
 - Google Cloud Functions
 
@@ -58,7 +58,7 @@ Tipo de computación en la nube sin preocuparse por la gestión de servidores. E
 
 ### No obstante, en nuestro caso hemos elegido las siguientes tres plataformas:
 
-| Plataforma            | Escalabilidad   | Costes                     | Dificultad a la hora de ser implementada                      | URL                                                  |
+| Plataforma           | Escalabilidad | Costes                     | Dificultad a la hora de ser implementada       | URL                                                  |
 | -------------------- | ------------- | -------------------------- | ---------------------------------------------- | ---------------------------------------------------- |
 | **AWS Lambda**       | **Excelente** | **Bajo (Gratis hasta 1M)** | **Alta, pero requiere experiencia con AWS**    | **https://aws.amazon.com/es/lambda/**                |
 | **Google Functions** | Excelente     | Bajo (Gratis hasta 1M)     | Muy alta                                       | https://cloud.google.com/functions                   |
@@ -117,9 +117,11 @@ Tipo de computación en la nube sin preocuparse por la gestión de servidores. E
 3. Dependencia de la infraestructura de Google
 
 ---
+
 ## Azure Functions
 
 ### Características
+
 1. Diseña aplicaciones sin servidor en el lenguaje que prefieras mientras te centras en la lógica de negocios.
 
 2. Logra un escalado de un gran rendimiento.
@@ -136,10 +138,9 @@ Tipo de computación en la nube sin preocuparse por la gestión de servidores. E
 
 ## Desventajas
 
-1. Los costos asociados con el uso de Azure son variables y dependen de los tipos de productos necesarios para el equipo de desarrollo de la empresa. 
+1. Los costos asociados con el uso de Azure son variables y dependen de los tipos de productos necesarios para el equipo de desarrollo de la empresa.
 
 2. Azure difiere de los servidores locales y requiere experiencia para garantizar un funcionamiento eficiente de todas las partes móviles. Incluso un error simple cometido por el administrador de TI puede generar problemas significativas.
-
 
 ---
 
@@ -177,7 +178,6 @@ Datos a tener en cuenta para dicho **Pricing Calculator**
 
 5. Cantidad de almacenamiento efímero asignado (MB) --> Almacenamiento temporal. Es útil para almacenar datos temporales, como para ciertas aplicaciones, lo cuál, aumentará el costo.
 
-
 A modo de resumen, en la siguiente tabla se indican los datos necesarios e insertados en la imágen anterior:
 
 | Arquitectura | Cantidad de solicitudes (U/mes) | Duración Cada Solicitud (ms) | Memoria Asignada (GB) | Almacenamiento Efímero Asignado (MB) |
@@ -209,21 +209,9 @@ En AWS tenemos la opción de asignarle hasta un máximo de _10GB_, no obstante, 
 Debido a que no utilizaremos demasiadas aplicaciones y no queremos que incremente el costo, hemos sido bastante conservados indicando **512 MB**.
 
 ---
-![AWS Lambda Configuration Image - SNS](/images/snsconfig.png)
 
-1. Solicitudes --> Cantidad de solicitudes que se recibirán.
+## ![AWS Lambda Configuration Image - SNS](/images/snsconfig.png)
 
-2. Notificaciones HTTP/HTTPS --> Hay que tener en cuenta la notificación para HTTP y la de EMAIL.
-
-3. Notificaciones por EMAIL o EMAIL-JSON --> Notificación a EMAIL y a la propia empresa.
-
-4. Notificaciones de SQS --> Notificación de entrada y salida, se multiplica al igual que en los anteriores apartados x2 las solicitudes esperadas.
-
-5. Amazon Web Services Lambda --> Solicitudes x2
-
-6. Amazon Kinesis Data Firehose --> Solicitudes x2
-
----
 ![AWS Lambda Configuration Image - SQS](/images/sqsconfig.png)
 
 ---
@@ -232,25 +220,28 @@ Debido a que no utilizaremos demasiadas aplicaciones y no queremos que increment
 
 # Cálculo de Costo para Amazon SQS
 
-Este documento detalla un cálculo aproximado de costos para utilizar el servicio **Amazon SQS** (Simple Queue Service) basado en los parámetros típicos de una empresa que maneja colas de mensajes para sus operaciones. 
+Este documento detalla un cálculo aproximado de costos para utilizar el servicio **Amazon SQS** (Simple Queue Service) basado en los parámetros típicos de una empresa que maneja colas de mensajes para sus operaciones.
 
 ---
 
 ## Detalles de Costo
 
 ### 1. **Costo Base por Solicitud**
+
 - **Cola estándar:** $0.40 por millón de solicitudes.
 - **Cola FIFO:** $0.50 por millón de solicitudes.
 
 Para este ejemplo:
+
 - **Cantidad de solicitudes:** 1,000 mensajes por mes.
-- **Cálculo:** 
+- **Cálculo:**
   - Estándar: \( 1,000 \times \frac{0.40}{1,000,000} = \$0.0004 \)
   - FIFO: \( 1,000 \times \frac{0.50}{1,000,000} = \$0.0005 \)
-    
+
 ---
 
 ### 2. **Costo de Almacenamiento**
+
 - Cada mensaje ocupa 64 KB.
 - 1,000 mensajes \(\approx\) 64 MB (debajo del límite gratuito de 1 GB).
 - **Costo adicional:** Sin cargo por almacenamiento.
@@ -258,6 +249,7 @@ Para este ejemplo:
 ---
 
 ## Notas
+
 1. El cálculo ignora configuraciones avanzadas como retención prolongada (más de 4 días) o mensajes más grandes (>64 KB).
 2. Este ejemplo es para un caso básico de SQS y puede ajustarse según las necesidades específicas, como:
    - Aumentar el tamaño promedio de los mensajes.
@@ -265,11 +257,13 @@ Para este ejemplo:
    - Incrementar el número de solicitudes mensuales.
 
 ---
+
 ## Conclusiones
 
 En base al modelo adoptado, la investigación de las plataformas, los factores evaluados y el análisis económico, se concluye lo siguiente:
 
 #### **Adecuación del Modelo de Servicio FaaS**
+
 El modelo **FaaS** se ajusta perfectamente a los requisitos del problema debido a:
 
 - **Coste optimizado**: Pago únicamente por uso y ejecución de funciones.
@@ -278,14 +272,17 @@ El modelo **FaaS** se ajusta perfectamente a los requisitos del problema debido 
 - **Simplicidad administrativa**: El proveedor administra la infraestructura, permitiendo a los desarrolladores centrarse exclusivamente en la lógica del negocio.
 
 #### **Soluciones Contrastadas**
+
 De las plataformas seleccionadas, las tres cumplen con los principios del modelo FaaS, pero destacan en diferentes aspectos:
 
 1. **AWS Lambda**:
+
    - Excelente para aplicaciones que requieren integración profunda con el ecosistema AWS.
    - Es ideal para equipos con experiencia en la plataforma.
    - El costo es competitivo, y ofrece herramientas avanzadas de monitoreo y configuración.
 
 2. **Google Cloud Functions**:
+
    - Beneficia a las empresas que ya utilizan herramientas de Google.
    - Su integración nativa con el ecosistema de Google facilita el desarrollo de soluciones escalables.
 
@@ -294,13 +291,14 @@ De las plataformas seleccionadas, las tres cumplen con los principios del modelo
    - Ofrece una flexibilidad significativa en modelos de pago y escalabilidad avanzada.
 
 #### **Comparativa de Plataformas**
+
 La elección de la plataforma dependerá de los siguientes factores:
 
-| **Plataforma**         | **Casos ideales**                                                                                   |
-|-------------------------|---------------------------------------------------------------------------------------------------|
-| **AWS Lambda**          | Soluciones complejas y de alta integración con el ecosistema AWS.                                 |
-| **Google Cloud Functions** | Aplicaciones ligeras, rápidas de implementar y con dependencia de servicios de Google Cloud.       |
-| **Azure Functions**     | Proyectos empresariales con dependencias en herramientas y servicios de Microsoft Azure.          |
+| **Plataforma**             | **Casos ideales**                                                                            |
+| -------------------------- | -------------------------------------------------------------------------------------------- |
+| **AWS Lambda**             | Soluciones complejas y de alta integración con el ecosistema AWS.                            |
+| **Google Cloud Functions** | Aplicaciones ligeras, rápidas de implementar y con dependencia de servicios de Google Cloud. |
+| **Azure Functions**        | Proyectos empresariales con dependencias en herramientas y servicios de Microsoft Azure.     |
 
 ---
 
