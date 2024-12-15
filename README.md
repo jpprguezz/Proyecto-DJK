@@ -124,6 +124,8 @@ Tipo de computación en la nube sin preocuparse por la gestión de servidores. E
 
 2. Logra un escalado de un gran rendimiento.
 
+3. Flexibilidad y simplicidad, gracias a que Azure se encarga de ejecutar el código solo cuando sea necesario, escalarlo automáticamente, y liberar recursos en caso de que no se esten usando
+
 ## Ventajas
 
 1. Podemos codificar todo el código que necesitemos para el problema / acción que se quiere ejecutar sin preocuparnos de la aplicación o la infraestructura para ejecutarlo.
